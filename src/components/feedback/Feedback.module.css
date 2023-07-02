@@ -1,0 +1,107 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.wrapper{
+    max-width: 1200px;
+    padding: 35px;
+    margin: 50px auto;
+    border-radius: 25px;
+    background-color: white;
+    text-align:center;
+}
+
+.title{
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(107, 105, 104, 0.89);
+}
+
+.btn__box{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+    font-size: larger;
+    font-weight: 600;
+    padding: 15px 0;
+    text-align: center;
+    margin : 0 50px;
+    border: none;
+    border-radius : 20px;
+}
+
+.btn:hover,
+.btm:focus{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn__positive{
+    background-color: rgb(72, 216, 35);
+    color:aliceblue;
+}
+
+.btn__positive:hover {
+    box-shadow: 0px 0px 35px rgba(174, 255, 0, 0.9);
+}
+
+.btn__neutral{
+background-color: yellow;
+color: grey;
+}
+
+.btn__neutral:hover{
+    box-shadow: 0px 0px 35px rgba(255, 205, 104, 0.9);
+}
+
+.btn__negative{
+    background-color: rgb(255, 81, 116);
+    color: white;
+}
+
+.btn__negative:hover{
+    box-shadow: 0px 0px 35px rgba(255, 81, 110, 0.9);
+}
+
+.subTitle{
+    font-size: 20px;
+    margin: 50px 0;
+    text-transform:uppercase;
+}
+
+.statList{
+    font-size: larger;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.915);
+}
+
+.statList_item{
+    text-align: left;
+    width: 200px;
+    padding:10px ;
+    border-radius:10px;
+    background-color:azure;
+    display: flex;
+    flex-direction: column;
+}
+
+.statList__item__name{
+    font-weight: 600;
+}
+
+.statList__item__value{
+    text-align: center;
+    font-size:30px;
+    margin: 10px 0;
+}
+
+
+
